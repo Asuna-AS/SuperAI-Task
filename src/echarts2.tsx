@@ -66,7 +66,7 @@ const MyChartComponent2 = () => {
     };
     chart.setOption(options);
     return () => {
-      chart.dispose();
+      
     };
   }, []);
 

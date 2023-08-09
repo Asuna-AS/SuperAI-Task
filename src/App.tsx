@@ -8,7 +8,7 @@ import "react-widgets/styles.css";
 import DatePicker from "react-widgets/DatePicker";
 function App() {
   return (
-    <div className="App">
+    <div className="flex max-lg:flex-col">
       <div className="flex flex-col w-full">
         <h1 className="p-3 font-semibold text-left">
           Comparion of high performer resignation rates to the overall
@@ -27,13 +27,13 @@ function App() {
             + Add a filter
           </button>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row max-lg:flex-col">
           <MyChartComponent />
           <MyChartComponent2 />
         </div>
       </div>
-      <div className="flex flex-row bg-gray-200 w-96 shadow-xl">
-        <div className="flex flex-col items-center justify-center gap-3">
+      <div className="flex flex-row bg-gray-200 shadow-xl max-lg:flex-col">
+        <div className="flex flex-col items-center justify-center gap-3 max-lg:flex-row">
           <button className="w-8 h-8 text-white bg-blue-500 rounded-full -ml-4 shadow-xl">
             i
           </button>

@@ -40,3 +40,22 @@
   }
 }
 svg{fill:#ffffff}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .flex-row {
+    flex-direction: column; /* Stack elements vertically on small screens */
+  }
+
+  /* Adjust font sizes for smaller screens */
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
